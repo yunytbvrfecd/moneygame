@@ -1,12 +1,13 @@
 import "./App.css";
-import ControlMoney from "./components/controlmoney.jsx";
-
+import ControlMoney from "./components/Controlmoney.jsx";
+import Trump from "./components/ControlCards.jsx";
 
 
 function App() {
   return (
     <div className="default">
-      <ControlMoney />
+      {/*<ControlMoney />*/}
+      <Trump />
     </div>
   );
 }

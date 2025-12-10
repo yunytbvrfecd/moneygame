@@ -1,4 +1,4 @@
-import Dice from "./dice";
+import Dice from "./Dice";
 import { useState } from "react";
 
 const Chinchirorin = ({ onSettlement, money }) => {

@@ -1,5 +1,5 @@
 import {useState} from "react";
-import Chinchirorin from "./chinchirorin.jsx";
+import Chinchirorin from "./Chinchirorin.jsx";
 
 
 const ControlMoney = () => {
