@@ -31,7 +31,7 @@ const ControlCards = () => {
     const deckCreated = createDeck();
     const deckShuffled = shuffleDeck(deckCreated);
     setDeck(deckShuffled);
-  }
+  };
 
   // 指定枚数配布
   const dealCards = (cards) => {
@@ -43,7 +43,7 @@ const ControlCards = () => {
     const newDeck = [...deck];
     const newHands = [];
 
-    newHands.push(...hands)
+    newHands.push(...hands);
     for (let i = 0; i < cards; i++) {
       newHands.push(newDeck.pop());
     }
@@ -62,7 +62,7 @@ const ControlCards = () => {
   const disCards = () => {
     const newHands = [];
     setHands(newHands);
-  }
+  };
 
   return (
     <div>
